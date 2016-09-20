@@ -1,0 +1,7 @@
+.idea
+*.iml
+app.db
+tests.db
+bac-env/*
+FlaskFixtures.egg-info/*
+__pycache__

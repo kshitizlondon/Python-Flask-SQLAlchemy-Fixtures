@@ -1,13 +1,13 @@
 import unittest
 
 from flask import Flask
-from flask.ext.testing import TestCase
+from unittest
 
 import fixtures
 import models
 
 
-class ModelsTestCase(TestCase):
+class ModelsTestCase(unittest.TestCase):
 
     db_uri = "sqlite:///tests.db"
 

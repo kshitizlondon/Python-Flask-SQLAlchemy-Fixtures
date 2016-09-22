@@ -29,3 +29,16 @@ class Egg(db.Model):
 
     id = db.Column(db.Integer, primary_key=True)
     description = db.Column(db.Text)
+
+class User(db.Model):
+    __tablename__ = 'user'
+
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.Text)
+
+class UserMessage(db.Model):
+    __tablename__ = 'user_message'
+
+    id = db.Column(db.Integer, primary_key=True)
+    userId = db.Column(db.Integer)
+    message = db.Column(db.Text)

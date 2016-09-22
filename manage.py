@@ -1,7 +1,6 @@
 from flask_script import Manager
 from flask_migrate import MigrateCommand
 from app import app
-
 import fixtures as _fixtures
 import models
 

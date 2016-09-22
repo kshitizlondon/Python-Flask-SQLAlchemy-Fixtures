@@ -14,5 +14,7 @@ setup(
         'SQLAlchemy',
         'connexion',
         'flask-migrate',
+        'mixer',
+        'fake-factory>=0.5.0',
         ],
     )

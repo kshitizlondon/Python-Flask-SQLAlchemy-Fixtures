@@ -23,6 +23,11 @@ class EggData(DataSet):
     class egg01:
         description = 'green, for eating with mechanically separated meat'
 
+class UserData(DataSet):
+
+    class user01:
+        name = 'Some user name'
+
 
 # A simple trick for installing all fixtures from an external module.
-all_data = (SpamData, EggData,)
+all_data = (SpamData, EggData, UserData)

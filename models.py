@@ -40,5 +40,5 @@ class UserMessage(db.Model):
     __tablename__ = 'user_message'
 
     id = db.Column(db.Integer, primary_key=True)
-    userId = db.Column(db.Integer)
+    userId = db.Column(db.Integer, db.ForeignKey('user.id'))
     message = db.Column(db.Text)

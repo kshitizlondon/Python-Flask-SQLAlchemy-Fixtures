@@ -1,0 +1,35 @@
+swagger: "2.0"
+
+info:
+  title: "API Rest"
+  version: "1.0"
+
+basePath: /v1.0
+
+paths:
+  /get_results/{id}:
+    get:
+      tags: [Rest Get Results]
+      operationId: api.rest.get_result
+      parameters:
+        - in: path
+          name: id
+          required: true
+          type: integer
+          description: Enter Id
+      responses:
+        200:
+          description: 'will return the result'
+          schema:
+            $ref: '#/definitions/index'
+
+definitions:
+  index:
+    type: object
+    properties:
+      user_id:
+        type: integer
+        example: 101
+      welcome_message:
+        type: string
+        example: will return the result

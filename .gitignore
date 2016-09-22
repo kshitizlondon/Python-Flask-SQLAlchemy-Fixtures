@@ -5,3 +5,4 @@ tests.db
 bac-env/*
 FlaskFixtures.egg-info/*
 __pycache__
+logs/app*

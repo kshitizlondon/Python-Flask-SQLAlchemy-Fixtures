@@ -9,8 +9,10 @@ setup(
         'fixture',
         'Flask',
         'Flask-Script',
-        'Flask-SQLAlchemy<0.10',
+        'Flask-SQLAlchemy>=1.0',
         'Flask-Testing',
         'SQLAlchemy',
+        'connexion',
+        'flask-migrate',
         ],
     )

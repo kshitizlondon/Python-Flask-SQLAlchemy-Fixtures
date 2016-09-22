@@ -2,7 +2,26 @@ Kshitiz Mahajan
 
 Demonstrate use of ``fixture`` with Flask-SQLAlchemy and Flask-Testing.
 
-Get this gist::
+
+Setup
+-----
+
+To create the virtualenv:
+```bash
+$ python3 -m venv bac-env
+```
+To activate:
+```bash
+$ source bac-env/bin/activate
+```
+
+To install dependencies:
+```bash
+$ pip3 install -r requirements.txt
+```
+
+
+Get this::
 
     git clone git@github.com:kshitizlondon/Python-Flask-SQLAlchemy-Fixtures.git
     cd Python-Flask-SQLAlchemy-Fixtures

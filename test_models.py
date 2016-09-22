@@ -1,7 +1,6 @@
 import unittest
 
 from flask import Flask
-from unittest
 
 import fixtures
 import models

@@ -1,9 +1,7 @@
-from flaskext.sqlalchemy import SQLAlchemy
+from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import create_engine
 
-
-db = SQLAlchemy()
-
+from app import db
 
 def init_app(app):
     """Initializes Flask app."""
